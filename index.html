@@ -6,200 +6,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="SpaceX Falcon Heavy the most powerful operational rocket, overwiew"
+      content="Discover Wonderful Indonesia, explore the nature beauty, culture, enjoy your holidays"
     />
-    <title>SpaceX</title>
+    <title>Discover Wonderful Indonesia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+      integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container header-container">
-        <a class="logo" href="./index.html"
-          ><svg width="138" height="17" aria-label="SpaceX">
-            <use class="logo__icon" href="./images/icons.svg#icon-logo"></use>
-          </svg>
-        </a>
+      <div class="header__container">
+        <a class="logo" href="./index.html" aria-label="QWERy">QWERy</a>
 
+        <!-- nav -->
         <nav class="navigation">
-          <ul class="navigation__list list">
-            <li class="navigation__item">
-              <a class="navigation__link" href="https://www.spacex.com/vehicles/falcon-9/"
-                >Falcon 9</a
-              >
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="https://www.spacex.com/vehicles/falcon-heavy/"
-                >Falcon Heavy</a
-              >
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="https://www.spacex.com/vehicles/dragon/">Dragon</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="https://www.spacex.com/updates/">Updates</a>
-            </li>
+          <ul class="navigation__list">
+            <li class="navigation__item">Information</li>
+            <li class="navigation__item">About us</li>
+            <li class="navigation__item">Culture</li>
           </ul>
         </nav>
-        <ul class="about-links list">
-          <li class="about-links__item">
-            <a class="about-links__link" href="#">About</a>
-          </li>
-          <li class="about-links__item">
-            <a class="about-links__link" href="#">Gallery</a>
-          </li>
-          <li class="about-links__item">
-            <a class="about-links__link" href="https://shop.spacex.com/">Shop</a>
-          </li>
-        </ul>
+
+        <!-- search form -->
+        <label class="search-form">
+          <input class="search-form__input" type="text" name="search" placeholder="Search" />
+          <svg class="search-form__icom" width="20" height="20">
+            <use href=""></use>
+          </svg>
+        </label>
       </div>
     </header>
 
     <!-- main -->
     <main>
-      <!-- hero section -->
-      <section class="hero">
-        <div class="container hero__container">
-          <h1 class="hero__title">Falcon Heavy</h1>
-          <p class="hero__subtitle">
-            The most powerful operational rocket <br />
-            in the world by a factor of two
-          </p>
-        </div>
-        <div class="overlay"></div>
-      </section>
-
-      <!-- falcon heavy section -->
-      <section class="falcon-heavy">
-        <div class="container falcon-heavy__container">
-          <h2 class="falcon-heavy__title">
-            Falcon Heavy <br />
-            Overview
-          </h2>
-
-          <table class="falcon-table">
-            <tbody class="falcon-table__body">
-              <tr class="falcon-table__row">
-                <td class="falcon-table__data-feature">HEIGHT</td>
-                <td class="falcon-table__data-value-1">
-                  70 m / <span class="falcon-table__data-value-2">229.6 ft</span>
-                </td>
-              </tr>
-              <tr class="falcon-table__row">
-                <td class="falcon-table__data-feature">DIAMETER</td>
-                <td class="falcon-table__data-value-1">
-                  12.2 m / <span class="falcon-table__data-value-2">39.9 ft</span>
-                </td>
-              </tr>
-              <tr class="falcon-table__row">
-                <td class="falcon-table__data-feature">MASS</td>
-                <td class="falcon-table__data-value-1">
-                  1,420,788 kg / <span class="falcon-table__data-value-2">3,125,735 lb</span>
-                </td>
-              </tr>
-              <tr class="falcon-table__row">
-                <td class="falcon-table__data-feature">PAYLOAD TO LEO</td>
-                <td class="falcon-table__data-value-1">
-                  63,800 kg / <span class="falcon-table__data-value-2">140,660 lb</span>
-                </td>
-              </tr>
-              <tr class="falcon-table__row">
-                <td class="falcon-table__data-feature">PAYLOAD TO GTO</td>
-                <td class="falcon-table__data-value-1">
-                  26,700 kg / <span class="falcon-table__data-value-2">58,860 lb</span>
-                </td>
-              </tr>
-              <tr class="falcon-table__row">
-                <td class="falcon-table__data-feature">PAYLOAD TO MARS</td>
-                <td class="falcon-table__data-value-1">
-                  16,800 kg / <span class="falcon-table__data-value-2">37,040 lb</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <h2 class="falcon-heavy__title">UNMATCHED PERFORMANCE</h2>
-          <p class="falcon-heavy__description">
-            With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable
-            rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals
-            approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent
-            of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.
-          </p>
-
-          <img
-            class="falcon-heavy__image"
-            srcset="
-              ./images/falcon-heavy-644.png  1x,
-              ./images/falcon-heavy-1288.png 2x,
-              ./images/falcon-heavy-1932.png 3x
-            "
-            src="./images/falcon-heavy-644.png"
-            alt="Falcon Heavy"
-            width="644"
-            height="1718"
-          />
+      <!-- section hero -->
+      <section class="hero section">
+        <div class="hero__container">
+          <h2 class="section__title">explore the Nature Beauty</h2>
+          <h1 class="hero__title">Discover Wonderful Indonesia</h1>
+          <b>Follow us</b>
+          <ul class="social-links">
+            <li class="social-links__item">
+              <svg class="social-links__icon" width="24" height="24">
+                <use href=""></use>
+              </svg>
+            </li>
+            <li class="social-links__item">
+              <svg class="social-links__icon" width="24" height="24">
+                <use href=""></use>
+              </svg>
+            </li>
+            <li class="social-links__item">
+              <svg class="social-links__icon" width="24" height="24">
+                <use href=""></use>
+              </svg>
+            </li>
+          </ul>
+          <a class="sroll" href="#nusa">
+            Scroll down
+            <svg>
+              <use class="sroll__icon" width="24" height="16"></use>
+            </svg>
+          </a>
         </div>
       </section>
+
+      <!-- section EAST NUSA TENGGARA -->
+      <section class="nusa-tenggara section" id="nusa">
+        <div class="container">
+          <picture>
+            <source
+              srcset="
+                ./images/woman-mountain.webp    1x,
+                ./images/woman-mountain@2x.webp 2x,
+                ./images/woman-mountain@3x.webp 3x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./images/woman-mountain.jpg    1x,
+                ./images/woman-mountain@2x.jpg 2x,
+                ./images/woman-mountain@3x.jpg 3x
+              "
+              type="image/jpeg"
+            />
+            <img src="./images/woman-mountain.jpg" alt="Woman in front of mountain" />
+          </picture>
+          <h2 class="section__title">EAST NUSA TENGGARA</h2>
+          <h3 class="section__promo">Have you enjoyed your holiday?</h3>
+          <p class="section__description">
+            You will be amazed if you take part in this sailing Komodo island tour package. So it is
+            also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have
+            to taste the marine tourism. The beautiful waters of Komodo will make you meet many
+            travelers from other countries.
+          </p>
+          <a class="section__link" href="">read more</a>
+          <!-- <img class="section__image" src="" alt="woman on the background of mountains" /> -->
+          <!-- add after !! -->
+        </div>
+      </section>
+
+      <!-- section BROMO -->
+      <section class="bromo section slick">
+        <div class="container">
+          <h2 class="section__title">Bromo</h2>
+          <h3 class="section__promo">Steady your steps, we will climb together!</h3>
+          <p class="section__description">
+            Enjoying the vast expanse of the sea of ​​sand, witnessing the splendor of Mount Semeru
+            that soars into the sky, and gazing at the beauty of the sun moving out of its bed or
+            otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience
+            when visiting Bromo.
+          </p>
+          <a class="section__link" href="">read more</a>
+          <!-- add svgs slider arrows !! -->
+          <!-- <img class="section__image" src="" alt="woman on the background of mountains" /> -->
+          <!-- add after !! -->
+        </div>
+      </section>
+
+      <!-- section INDONESIAN CULTURE -->
+      <section class="culture section">
+        <div class="container">
+          <h2 class="section__title">INDONESIAN CULTURE</h2>
+          <h3 class="section__promo">Our culture here is very friendly to people</h3>
+          <p class="section__description">
+            known for his politeness, manners and gentleness. This becomes a characteristic when
+            they mingle with other tribes and become basic traits that are passed down by their
+            ancestors.
+          </p>
+          <a class="section__link" href="">read more</a>
+          <picture>
+            <source
+              srcset="
+                ./images/women-atwork.webp    1x,
+                ./images/women-atwork@2x.webp 2x,
+                ./images/women-atwork@3x.webp 3x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./images/women-atwork.jpg    1x,
+                ./images/women-atwork@2x.jpg 2x,
+                ./images/women-atwork@3x.jpg 3x
+              "
+              type="image/jpeg"
+            />
+            <img src="./images/women-atwork.jpg" alt="Woman in front of mountain" />
+          </picture>
+          <!-- add after !! -->
+        </div>
+      </section>
+      <svg class="icon-fcbk" width="34" height="34">
+        <use href="./images/icons-last.svg#icon-facebook"></use>
+      </svg>
+
+      <footer class="footer"></footer>
     </main>
 
-    <!-- footer -->
-    <footer class="footer">
-      <div class="container footer__container">
-        <a class="logo footer__logo" href="./index.html">
-          <svg width="138" height="17" aria-label="SpaceX">
-            <use class="logo__icon" href="./images/icons.svg#icon-logo"></use>
-          </svg>
-        </a>
-
-        <ul class="network-links list">
-          <li class="network-links__item">
-            <a class="network-links__link" href="https://twitter.com/spacex">Twitter</a>
-          </li>
-          <li class="network-links__item">
-            <a class="network-links__link" href="https://www.youtube.com/spacex">Youtube</a>
-          </li>
-          <li class="network-links__item">
-            <a
-              class="network-links__link"
-              href="https://www.instagram.com/accounts/login/?next=/spacex/"
-              >Instagram</a
-            >
-          </li>
-          <li class="network-links__item">
-            <a class="network-links__link" href="https://www.flickr.com/photos/spacex">Flickr</a>
-          </li>
-          <li class="network-links__item">
-            <a class="network-links__link" href="https://www.linkedin.com/company/spacex"
-              >LinkedIn</a
-            >
-          </li>
-          <li class="network-links__item">
-            <a
-              class="network-links__link"
-              href="https://www.spacex.com/media/privacy_policy_spacex.pdf"
-              >Privacy Policy</a
-            >
-          </li>
-        </ul>
-
-        <p class="footer-subtitle">For additional questions, contact rideshare@spacex.com</p>
-
-        <button class="button" type="button">Contact us</button>
-      </div>
-    </footer>
+    <script src="./js/slick-carousel.js"></script>
   </body>
 </html>

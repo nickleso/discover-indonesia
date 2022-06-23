@@ -1,0 +1,16 @@
+// :root {
+//   --arrow-color: #fff;
+// }
+
+.icon-fcbk {
+  --color1: teal;
+  --color2: #fff;
+  &:hover {
+    --color1: #fff;
+    --color2: teal;
+  }
+}
+
+// body {
+//   background-color: tomato;
+// }

@@ -1,12 +1,14 @@
 body {
-  color: var(--primary-text-color);
-  background-color: var(--main-bcg-color);
-  // background-color: tomato;
+  color: var(--primary-text);
+  background-color: var(--primary-bcg);
 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  // line-height: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+
+  // font-family: 'Titan One', cursive; - резервний шрифт для Titan One
 }
 
 img {
@@ -16,13 +18,36 @@ img {
 }
 
 .section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 105px;
-  padding-right: 105px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .list {
@@ -30,3 +55,19 @@ img {
   padding: 0;
   margin: 0;
 }
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+// .main-button {}
